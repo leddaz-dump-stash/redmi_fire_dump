@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SarRuleConfig>
+    <restore>
+        <sar_cell_restore value="0"/>
+    </restore>
+    <configs>
+        <config><!--  DSI-1    1    NA    NA    0 -->
+            <is_rfcheckpoint_insert value="1"/>
+            <is_receiver_phoneon value="1"/>
+            <is_sar_cell_reduce value="1"/>
+        </config>
+        <config><!--  DSI-2    0    距离＞16mm    距离＞16mm    0 -->
+            <is_rfcheckpoint_insert value="1"/>
+            <is_receiver_phoneon value="0"/>
+            <is_sarsensor_top value="0"/>
+            <is_sarsensor_bottom value="0"/>
+            <is_sar_cell_reduce value="2"/>
+        </config>
+        <config><!--  DSI-3    0    距离≤16mm    距离＞16mm    0 -->
+            <is_rfcheckpoint_insert value="1"/>
+            <is_receiver_phoneon value="0"/>
+            <is_sarsensor_top value="0"/>
+            <is_sarsensor_bottom value="1"/>
+            <is_sar_cell_reduce value="3"/>
+        </config>
+        <config><!--  DSI-4    0    NA    距离≤16mm    0 -->
+            <is_rfcheckpoint_insert value="1"/>
+            <is_receiver_phoneon value="0"/>
+            <is_sarsensor_top value="1"/>
+            <is_sar_cell_reduce value="4"/>
+        </config>
+        <!--  DSI-4    0    NA    NA    0,not configurate due to affect DSI-2,3-->
+        <config><!--  DSI-4    0    Sensor1或Sensor2参考通道电容值异常    0-->
+            <is_rfcheckpoint_insert value="1"/>
+            <is_receiver_phoneon value="0"/>
+            <is_sarsensor_top value="3"/>
+            <is_sar_cell_reduce value="4"/>
+        </config>
+	<config><!--  DSI-4    0    Sensor1或Sensor2参考通道电容值异常    0-->
+            <is_rfcheckpoint_insert value="1"/>
+            <is_receiver_phoneon value="0"/>
+            <is_sarsensor_bottom value="3"/>
+            <is_sar_cell_reduce value="4"/>
+        </config>
+	<config><!--  DSI-4    0    Sensor1或Sensor2异常    0-->
+            <is_rfcheckpoint_insert value="1"/>
+            <is_receiver_phoneon value="0"/>
+            <is_sarsensor_top value="4"/>
+            <is_sar_cell_reduce value="4"/>
+        </config>
+	<config><!--  DSI-4    0    Sensor1或Sensor2异常    0-->
+            <is_rfcheckpoint_insert value="1"/>
+            <is_receiver_phoneon value="0"/>
+            <is_sarsensor_bottom value="4"/>
+            <is_sar_cell_reduce value="4"/>
+        </config>
+	<config><!--  DSI-4    0    Sensor1或Sensor2异常    0,DSI-4    0    Sensor1或Sensor2参考通道电容值异常    0-->
+            <is_rfcheckpoint_insert value="1"/>
+            <is_receiver_phoneon value="0"/>
+            <is_sarsensor_top value="1"/>
+            <is_sarsensor_bottom value="1"/>
+            <is_sar_cell_reduce value="4"/>
+        </config>
+        <config><!--  DSI-5    NA    NA    NA    1 -->
+            <is_rfcheckpoint_insert value="0"/>
+            <is_sar_cell_reduce value="5"/>
+        </config>
+        <config>
+            <is_rfcheckpoint_insert value="1"/>
+            <is_voice value="0"/>
+            <is_receiver_phoneon value="0"/>
+            <is_sarsensor_top value="0"/>
+            <is_wifi_ap_opened value="0"/>
+            <is_sar_cell_reduce value="-1"/>
+            <is_sim_mcc value="1"/>
+        </config>
+    </configs>
+</SarRuleConfig>
+
+
+
+
+
+
+
