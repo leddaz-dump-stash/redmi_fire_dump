@@ -1,0 +1,10 @@
+
+ro.product.vendor.brand=Redmi
+ro.product.vendor.name=heat_global
+ro.product.vendor.device=heat
+ro.vendor.build.fingerprint=Redmi/heat_global/heat:13/TP1A.220624.014/V14.0.4.0.TMXMIXM:user/release-keys
+ro.product.vendor.marketname=Redmi 12
+ro.product.vendor.model=23053RN02Y
+ro.product.board=heat
+ro.bootimage.build.fingerprint=Redmi/heat_global/heat:13/TP1A.220624.014/V14.0.4.0.TMXMIXM:user/release-keys
+
